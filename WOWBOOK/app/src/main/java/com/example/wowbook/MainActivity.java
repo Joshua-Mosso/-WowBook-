@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
         Button signButton = (Button) findViewById(R.id.sign_up);
         Intent intent = new Intent(this, SignUp.class);
 
-        signButton.setOnClickListener(this, SignUp.class);
     }
 
 }
