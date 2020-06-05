@@ -15,9 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //Direção para a pagina de signUp
-        Button signButton = (Button) findViewById(R.id.sign_up);
-        Intent intent = new Intent(this, SignUp.class);
+        
 
     }
 
