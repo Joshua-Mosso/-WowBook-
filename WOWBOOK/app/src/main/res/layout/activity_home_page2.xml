@@ -7,6 +7,7 @@
     android:paddingTop="?attr/actionBarSize">
 
     <android.support.design.widget.BottomNavigationView
+<<<<<<< Updated upstream:WOWBOOK/app/src/main/res/layout/activity_home_page2.xml
         android:id="@+id/nav_view"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -29,5 +30,23 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:navGraph="@navigation/mobile_navigation" />
+=======
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#F7FBFF"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="611dp">
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:background="?android:attr/windowBackground"
+            app:menu="@menu/bottom_nav_menu">
+
+        </android.support.design.widget.BottomNavigationView>
+    </android.support.design.widget.BottomNavigationView>
+>>>>>>> Stashed changes:WOWBOOK/app/src/main/res/layout/activity_home_page.xml
 
 </android.support.constraint.ConstraintLayout>
