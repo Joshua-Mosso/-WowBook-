@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PerfilSobreNosActivity">
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="365dp"
+        android:layout_height="680dp"
+        android:background="#FFFFFF"
+        android:text="Este aplicativo tem como objetivo a criaçao de uma comunidade de leitores, onde sao debatidas ideias, fatos, sugestoes, duvidas e resumos de livros lidos e que sejam ambicionados ler pelos nossos usuários. Esperemos que esta aplicaçao ajuda a melhorar a vida de muitos leitores, resolvendo algumas das duvidas que possam existir sobre qualquer assunto relacionado com a literatura. Temos também desafios para vos manter com um bom entusiasmo e dedicaçao á leitura! Esperemos que gostem."
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>
