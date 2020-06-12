@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "210152506643",
+    "firebase_url": "https://wowbook-e1010.firebaseio.com",
+    "project_id": "wowbook-e1010",
+    "storage_bucket": "wowbook-e1010.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210152506643:android:422219950f501e5ecb86e6",
+        "android_client_info": {
+          "package_name": "com.example.wowbook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210152506643-juer7psmtoik36bn2377ar5mhutcsovn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmwxiVtDOXjaCX6N7i_ss1rC3lTmDfsJU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210152506643-juer7psmtoik36bn2377ar5mhutcsovn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
