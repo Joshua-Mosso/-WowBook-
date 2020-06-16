@@ -19,9 +19,10 @@
         android:textColorHint="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.607"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.4" />
+        app:layout_constraintVertical_bias="0.365" />
 
     <EditText
         android:id="@+id/pass"
@@ -34,10 +35,10 @@
         android:textColorHint="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintHorizontal_bias="0.451"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.603" />
+        app:layout_constraintVertical_bias="0.572" />
 
     <TextView
         android:id="@+id/textView2"
@@ -46,14 +47,14 @@
         android:layout_marginTop="36dp"
         android:text="Password"
         android:textColor="#000000"
-        android:textSize="24sp"
+        android:textSize="20dp"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.062"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.486"
+        app:layout_constraintVertical_bias="0.435"
         tools:visibility="visible" />
 
     <TextView
@@ -62,14 +63,14 @@
         android:layout_height="wrap_content"
         android:text="Email"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
-        android:textSize="24sp"
+        android:textSize="20dp"
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintHorizontal_bias="0.056"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.327"
+        app:layout_constraintVertical_bias="0.289"
         tools:text="Email"
         tools:visibility="visible" />
 
@@ -78,10 +79,11 @@
         android:layout_width="159dp"
         android:layout_height="65dp"
         android:layout_marginTop="37dp"
+        android:background="@drawable/roundbutton"
         android:backgroundTint="#12344E"
         android:text="Login"
         android:textColor="#FFFFFF"
-        android:textSize="18sp"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.93"
@@ -94,17 +96,18 @@
         android:layout_width="159dp"
         android:layout_height="65dp"
         android:layout_marginTop="37dp"
+        android:background="@drawable/roundbutton"
         android:backgroundTint="#F8FBFD"
+        android:onClick="sendMessage"
         android:text="Criar Conta"
         android:textColor="#000000"
-        android:textSize="18sp"
+        android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.158"
+        app:layout_constraintHorizontal_bias="0.069"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.751"
-        android:onClick="sendMessage"/>
+        app:layout_constraintVertical_bias="0.752" />
 
     <Button
         android:id="@+id/googleLogin"

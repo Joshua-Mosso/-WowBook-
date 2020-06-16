@@ -4,24 +4,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-<<<<<<< HEAD
+
     android:layout_height="match_parent">
-=======
-    android:layout_height="match_parent"
-    tools:context=".ui.profile.ProfileFragment">
 
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="257dp"
-        android:layout_height="234dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/profile" />
->>>>>>> 0715a5e8d70c46cb64ca3bf4adff00cc8e97b33c
 
     <View
         android:id="@+id/fundo"
@@ -33,13 +18,14 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
-<<<<<<< HEAD
     <ImageView
         android:id="@+id/fotoPerfil"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="#03A9F4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -53,7 +39,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Username"
-=======
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.501"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.349" />
+
     <Button
         android:id="@+id/button16"
         android:layout_width="360dp"
@@ -62,23 +54,25 @@
         android:outlineProvider="bounds"
         android:text="Sobre mim/Bio"
         android:textAllCaps="false"
->>>>>>> 0715a5e8d70c46cb64ca3bf4adff00cc8e97b33c
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.49"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.337" />
+        app:layout_constraintVertical_bias="0.535" />
 
     <Button
         android:id="@+id/wowteca"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="91dp"
+        android:layout_height="50dp"
+        android:background="@drawable/roundbutton"
+        android:backgroundTint="@color/azul"
+        android:selectAllOnFocus="false"
         android:text="WowTeca"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.398" />
+        app:layout_constraintVertical_bias="0.413" />
 </androidx.constraintlayout.widget.ConstraintLayout>

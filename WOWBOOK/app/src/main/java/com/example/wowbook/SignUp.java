@@ -72,7 +72,7 @@ public class SignUp extends android.app.Activity {
         //identificação das variaveis
         emailInput = findViewById(R.id.email);
         passwordInput = findViewById(R.id.pass);
-        repeatPassword = findViewById(R.id.confirmPass);
+
 
         login = findViewById(R.id.sign_up);
 
@@ -88,7 +88,6 @@ public class SignUp extends android.app.Activity {
 
                 String email = emailInput.getText().toString();
                 String password = passwordInput.getText().toString();
-                //String confirmPass = repeatPassword.getText().toString();
 
 
 

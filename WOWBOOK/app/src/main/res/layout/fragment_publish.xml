@@ -10,7 +10,10 @@
         android:id="@+id/wowme"
         android:layout_width="112dp"
         android:layout_height="57dp"
+        android:background="@drawable/roundbutton"
+        android:backgroundTint="#3C6E71"
         android:text="WOWME!"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.105"
@@ -32,19 +35,22 @@
         app:layout_constraintVertical_bias="0.075" />
 
     <com.google.android.material.textfield.TextInputEditText
-        android:layout_width="373dp"
-        android:layout_height="47dp"
+        android:layout_width="308dp"
+        android:layout_height="45dp"
         android:hint="hint"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.519"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.18" />
+        app:layout_constraintVertical_bias="0.183" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/roundbutton"
+        android:backgroundTint="#FFFFFF"
         android:text="Add Livro"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -57,7 +63,10 @@
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/roundbutton"
+        android:backgroundTint="#000000"
         android:text="Add Foto"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.876"
@@ -69,7 +78,9 @@
         android:id="@+id/publishBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/roundbutton"
         android:text="Publicar"
+        android:textColor="#FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
