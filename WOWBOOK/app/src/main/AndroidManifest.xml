@@ -9,25 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-<<<<<<< HEAD
-        <activity android:name=".HomePage">
 
+        <activity android:name=".HomePage">
         </activity>
         <activity android:name=".Category"></activity>
         <activity android:name=".SignUp"></activity>
-=======
-        <activity android:name=".PerfilSobreNosActivity"></activity>
-        <activity android:name=".EditarperfilActivity" />
-        <activity android:name=".PerfilActivity" />
-        <activity android:name=".BibliotecaperfilActivity" />
-        <activity android:name=".desafios" />
-        <activity
-            android:name=".HomePage"
-            android:label="@string/title_activity_home_page" />
-        <activity android:name=".Category" />
-        <activity android:name=".SignUp" />
->>>>>>> 0715a5e8d70c46cb64ca3bf4adff00cc8e97b33c
-        <activity android:name=".MainActivity">
+
+<activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
