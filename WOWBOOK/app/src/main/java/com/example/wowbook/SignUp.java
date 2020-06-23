@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -16,11 +17,13 @@ import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.squareup.picasso.Picasso;
 
 public class SignUp extends android.app.Activity {
     //declaração das variaveis
     private EditText emailInput , passwordInput , repeatPassword;
     private Button login;
+    ImageView wowbook;
 
     //metodos declarados
     @Override
@@ -68,6 +71,9 @@ public class SignUp extends android.app.Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
+        //imagem do logotipo
+        wowbook = (ImageView) findViewById(R.id.logoWow);
+        Picasso.get().load(R.drawable.logo_wowbook).into(wowbook);
 
         //identificação das variaveis
         emailInput = findViewById(R.id.email);

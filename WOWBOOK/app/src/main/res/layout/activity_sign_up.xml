@@ -12,12 +12,12 @@
         android:layout_height="63dp"
         android:background="@drawable/edit_text_border"
         android:ems="10"
-        android:hint="  Email"
+        android:hint=" Insira um email válido"
         android:inputType="textEmailAddress"
         android:selectAllOnFocus="true"
         android:singleLine="true"
         android:textColor="#000000"
-        android:textColorHint="#000000"
+        android:textColorHint="#474A51"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -30,15 +30,15 @@
         android:layout_height="66dp"
         android:background="@drawable/edit_text_border"
         android:ems="10"
-        android:hint="  Password"
+        android:hint=" Min.6 caracteres"
         android:inputType="textPassword"
         android:textColor="#000000"
-        android:textColorHint="#000000"
+        android:textColorHint="#474A51"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.517"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.538" />
 
     <Button
         android:id="@+id/sign_up"
@@ -72,10 +72,9 @@
         app:layout_constraintVertical_bias="0.956" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/logoWow"
         android:layout_width="124dp"
         android:layout_height="125dp"
-        android:background="#12344E"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -83,6 +82,34 @@
         app:layout_constraintVertical_bias="0.067"
         app:srcCompat="@android:drawable/ic_menu_gallery"
         tools:srcCompat="@drawable/logo_wowbook" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.051"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.296" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.058"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.46" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -20,10 +20,10 @@
         android:textColorHint="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.571"
+        app:layout_constraintHorizontal_bias="0.607"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.363" />
+        app:layout_constraintVertical_bias="0.365" />
 
     <EditText
         android:id="@+id/pass"
@@ -31,7 +31,7 @@
         android:layout_height="67dp"
         android:background="@drawable/edit_text_border"
         android:ems="10"
-        android:hint="  Password"
+        android:hint=" Password"
         android:inputType="textPassword"
         android:textColor="#000000"
         android:textColorHint="#000000"
@@ -91,10 +91,9 @@
         app:layout_constraintVertical_bias="0.951" />
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/logoWow"
         android:layout_width="124dp"
         android:layout_height="125dp"
-        android:background="#12344E"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
