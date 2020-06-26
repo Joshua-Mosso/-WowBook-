@@ -20,10 +20,10 @@
         android:textColorHint="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.607"
+        app:layout_constraintHorizontal_bias="0.531"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.365" />
+        app:layout_constraintVertical_bias="0.368" />
 
     <EditText
         android:id="@+id/pass"
@@ -37,58 +37,44 @@
         android:textColorHint="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.548"
+        app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/login"
-        android:layout_width="159dp"
-        android:layout_height="65dp"
+        android:layout_width="147dp"
+        android:layout_height="59dp"
         android:layout_marginTop="37dp"
         android:background="@drawable/roundbutton"
         android:backgroundTint="#12344E"
-        android:text="Login"
+        android:text="@string/login"
         android:textColor="#FFFFFF"
-        android:textSize="20dp"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.94"
+        app:layout_constraintHorizontal_bias="0.924"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.693" />
+        app:layout_constraintVertical_bias="0.691" />
 
     <Button
         android:id="@+id/login2"
-        android:layout_width="159dp"
-        android:layout_height="65dp"
+        android:layout_width="147dp"
+        android:layout_height="59dp"
         android:layout_marginTop="37dp"
         android:background="@drawable/roundbutton"
         android:backgroundTint="#F8FBFD"
         android:onClick="sendMessage"
-        android:text="Registrar"
+        android:text="@string/registrar"
         android:textColor="#000000"
-        android:textSize="18dp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.084"
+        app:layout_constraintHorizontal_bias="0.075"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.693" />
-
-    <Button
-        android:id="@+id/googleLogin"
-        android:layout_width="289dp"
-        android:layout_height="60dp"
-        android:backgroundTint="#000000"
-        android:text="Login com G"
-        android:textColor="#FFFFFF"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.507"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.951" />
+        app:layout_constraintVertical_bias="0.691" />
 
     <ImageView
         android:id="@+id/logoWow"
@@ -101,6 +87,18 @@
         app:layout_constraintVertical_bias="0.067"
         app:srcCompat="@android:drawable/ic_menu_gallery"
         tools:srcCompat="@drawable/logo_wowbook" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/googleLogin"
+        android:layout_width="147dp"
+        android:layout_height="59dp"
+        android:layout_marginBottom="68dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pass"
+        app:layout_constraintVertical_bias="1.0" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

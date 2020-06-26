@@ -109,12 +109,12 @@ public class SignUp extends android.app.Activity {
                                 public void onComplete(@NonNull Task<Void> task) {
                                  if (task.isSuccessful()){
 
-                                     startActivity(new Intent(SignUp.this,Category.class));
+                                     startActivity(new Intent(SignUp.this,MainActivity.class));
                                      firebaseAuth.getInstance().signOut();
 
                                  }else{
                                      Toast.makeText(SignUp.this,"Por favor verifica o seu email de verificação", Toast.LENGTH_SHORT).show();
-                                     startActivity(new Intent(SignUp.this,Category.class));
+                                     startActivity(new Intent(SignUp.this,MainActivity.class));
 
                                      firebaseAuth.getInstance().signOut();
                                  }
